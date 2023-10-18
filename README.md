@@ -1,1 +1,1 @@
-# WB-L2-guessTheNumber
+# WB-L2-GuessTheNumber
