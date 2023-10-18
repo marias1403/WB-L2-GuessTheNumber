@@ -1,0 +1,8 @@
+.game__input-wrapper {
+  margin: 10px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}

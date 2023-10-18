@@ -1,0 +1,21 @@
+.game__button {
+  margin: 0;
+  padding: 7px 15px 5px;
+  border: 0;
+  box-sizing: border-box;
+  width: fit-content;
+  height: 30px;
+  background-color: #EBE211;
+  border-radius: 5px;
+  font-family: 'PressStart2P', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #483A9F;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.game__button:hover {
+  background-color: #EBAE11;
+}
