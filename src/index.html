@@ -18,20 +18,20 @@
           <h2 class="game__title">Выберите диапазон чисел</h2>
           <form class="game__form">
             <label class="game__label" for="range1">от</label>
-            <input class="game__input" id="range1" type="text" minlength="1" required placeholder="1" value="1">
+            <input class="game__input" id="range1" type="text" minlength="1" maxlength="8" required placeholder="1" value="1">
             <label class="game__label" for="range2">до</label>
-            <input class="game__input" id="range2" type="text" minlength="1" required placeholder="100" value="100">
+            <input class="game__input" id="range2" type="text" minlength="1" maxlength="8" required placeholder="100" value="100">
             <button class="game__button">Играть</button>
           </form>
         </div>
         <div class="wrapper">
           <label class="game__title" for="userGuess">Введите свое предположение в поле</label>
           <div class="game__input-wrapper">
-            <input class="game__input" id="userGuess" type="text" minlength="1">
+            <input class="game__input" id="userGuess" type="text" minlength="1" maxlength="8">
             <button class="game__button">Ввести</button>
           </div>
           <div class="game__info">
-            <p class="game__attempt">Ваши попытки: 10</p>
+            <p class="game__attempt">Ваши попытки: 0</p>
             <p class="game__clue-text">Число является четным</p>
             <p class="game__clue-text">Загаданное число больше предложенного</p>
           </div>
