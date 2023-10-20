@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title lang="ru">Архипова Мария, игра «Угадай число»</title>
-  <link rel="stylesheet" type="text/css" href="./assets/styles/index.css">
 </head>
 <body class="page">
   <div class="page__container">
@@ -36,7 +35,10 @@
             <p class="game__clue-text">Загаданное число больше предложенного</p>
           </div>
         </div>
-        <button class="game__button game__button_new-game">Начать заново</button>
+        <button class="game__button game__button_new-game">
+          <img class="game__restart-icon" src="<%=require('./assets/img/redo_icon.svg')%>" alt="Иконка рестарта" />
+          <span>Начать заново</span>
+        </button>
       </section>
       <section class="rules content__section">
         <h2 class="rules__title">Правила игры</h2>

@@ -22,6 +22,7 @@
 @import url(./blocks/game/__input/game__input.css);
 @import url(./blocks/game/__button/game__button.css);
 @import url(./blocks/game/__button/_new-game/game__button_new-game.css);
+@import url(./blocks/game/__restart-icon/game__restart-icon.css);
 @import url(./blocks/game/__attempt/game__attempt.css);
 @import url(./blocks/game/__clue-text/game__clue-text.css);
 @import url(./blocks/game/__info/game__info.css);
