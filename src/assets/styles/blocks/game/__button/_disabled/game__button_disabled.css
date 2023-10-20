@@ -1,0 +1,9 @@
+.game__button_disabled {
+  background-color: #5f5f5f;
+  cursor: auto;
+}
+
+.game__button_disabled:hover {
+  background-color: #5f5f5f;
+  color: #483A9F;
+}

@@ -22,13 +22,22 @@
 @import url(./blocks/game/__input/game__input.css);
 @import url(./blocks/game/__button/game__button.css);
 @import url(./blocks/game/__button/_new-game/game__button_new-game.css);
+@import url(./blocks/game/__button/_hidden/game__button_hidden.css);
+@import url(./blocks/game/__button/_disabled/game__button_disabled.css);
 @import url(./blocks/game/__restart-icon/game__restart-icon.css);
 @import url(./blocks/game/__attempt/game__attempt.css);
-@import url(./blocks/game/__clue-text/game__clue-text.css);
+@import url(./blocks/game/__text/game__text.css);
 @import url(./blocks/game/__info/game__info.css);
+@import url(./blocks/game/__win-wrapper/game__win-wrapper.css);
+@import url(./blocks/game/__win-wrapper/_hidden/game__win-wrapper_hidden.css);
+@import url(./blocks/game/__win-icon/game__win-icon.css);
+@import url(./blocks/game/__win-text/game__win-text.css);
 
 @import url(./blocks/rules/__title/rules__title.css);
 @import url(./blocks/rules/__text/rules__text.css);
 
+@import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__text/footer__text.css);
 @import url(./blocks/page/__footer/page__footer.css);
+
+@import url(./blocks/game-area/_hidden/game-area_hidden.css);

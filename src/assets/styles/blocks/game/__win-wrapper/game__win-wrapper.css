@@ -1,0 +1,8 @@
+.game__win-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+}

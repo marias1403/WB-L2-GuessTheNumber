@@ -16,26 +16,30 @@
         <div class="wrapper">
           <h2 class="game__title">Выберите диапазон чисел</h2>
           <form class="game__form">
-            <label class="game__label" for="range1">от</label>
-            <input class="game__input" id="range1" type="text" minlength="1" maxlength="8" required placeholder="1" value="1">
-            <label class="game__label" for="range2">до</label>
-            <input class="game__input" id="range2" type="text" minlength="1" maxlength="8" required placeholder="100" value="100">
-            <button class="game__button">Играть</button>
+            <label class="game__label" for="min">от</label>
+            <input class="game__input" id="min" type="text" minlength="1" maxlength="8" required placeholder="1" value="1">
+            <label class="game__label" for="max">до</label>
+            <input class="game__input" id="max" type="text" minlength="1" maxlength="8" required placeholder="100" value="100">
+            <button class="game__button" id="start">Играть</button>
           </form>
         </div>
-        <div class="wrapper">
+        <div class="game-area game-area_hidden wrapper">
           <label class="game__title" for="userGuess">Введите свое предположение в поле</label>
           <div class="game__input-wrapper">
             <input class="game__input" id="userGuess" type="text" minlength="1" maxlength="8">
-            <button class="game__button">Ввести</button>
+            <button class="game__button" id="guessBtn">Ввести</button>
           </div>
           <div class="game__info">
             <p class="game__attempt">Ваши попытки: 0</p>
-            <p class="game__clue-text">Число является четным</p>
-            <p class="game__clue-text">Загаданное число больше предложенного</p>
+            <p class="game__text" id="clue-text"></p>
+            <p class="game__text" id="message-text"></p>
+            <div class="game__win-wrapper game__win-wrapper_hidden" id="win-message">
+              <img class="game__win-icon" src="<%=require('./assets/img/win_icon.svg')%>" alt="Иконка трофея" />
+              <p class="game__win-text" id="win-text"></p>
+            </div>
           </div>
         </div>
-        <button class="game__button game__button_new-game">
+        <button id="restartBtn" class="game__button game__button_new-game game__button_hidden">
           <img class="game__restart-icon" src="<%=require('./assets/img/redo_icon.svg')%>" alt="Иконка рестарта" />
           <span>Начать заново</span>
         </button>
