@@ -54,11 +54,12 @@ guessBtn.addEventListener('click', () => {
   } else {
     if (attempts % 3 === 0) {
       showClue();
-    } else {
-      showMessage(`Увы нет. Попробуйте еще раз!`);
+    } else if (guess > secretNumber) {
+      showMessage('Загаданное число меньше предложенного');
+    } else if(guess < secretNumber) {
+      showMessage('Загаданное число больше предложенного');
     }
   }
-
   setAttempts();
 });
 
