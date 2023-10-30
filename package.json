@@ -9,8 +9,13 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marias1403/WB-L2-GuessTheNumber.git"
+  },
   "author": "Maria Arkhipova",
   "license": "ISC",
+  "homepage": "https://marias1403.github.io/WB-L2-GuessTheNumber",
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
