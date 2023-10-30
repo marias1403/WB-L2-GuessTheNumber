@@ -1,4 +1,5 @@
 .page__container {
+  padding: 0 30px;
   min-width: 320px;
   max-width: 1200px;
   width: 100%;
@@ -7,4 +8,5 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  box-sizing: border-box;
 }
